@@ -1,0 +1,176 @@
+/****************/
+/*  Animation Plot */
+/****************/
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 3px solid #D80621;
+}
+
+.nav-image {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.background-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sector.jpg');
+}
+
+body {
+    margin: 0;
+}
+
+.centered-content {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div.container {
+    font-family: "arial";
+    /*background-color: rgba(29,67,30,0.8);*/
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+    /* Removed fixed height to allow dynamic sizing */
+    width: 100%; /* Adjust the width as per requirement */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow for better visibility */
+}
+
+/*div.container1 {*/
+/*  font-family: "arial";*/
+/*  background-color: rgba(29,67,30,0.8);*/
+/*  !*background-color: rgba(0, 0, 0, 0.6);*!*/
+/*  padding-left: 5vh;*/
+/*  padding-right: 5vh;*/
+/*  padding-bottom: 5vh;*/
+/*  !* Removed fixed height to allow dynamic sizing *!*/
+/*  width: 100%; !* Adjust the width as per requirement *!*/
+/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); !* Optional: Adds a shadow for better visibility *!*/
+/*}*/
+
+.axis {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.axis path,
+.axis line,
+.domain {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+#chart-area text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.axis-label {
+    fill: brown;
+    font: 12px "arial";
+    font-weight: bold;
+}
+
+h1, h2, .source {
+    font: 26px "arial";
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.source {
+    font-size: 12px;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+/*h1 {*/
+/*    color: white;*/
+/*    font: 40px "arial";*/
+/*    !*font: 45px "Lucida Handwriting";*!*/
+/*    font-weight: bold;*/
+/*    margin-top: 2vh;*/
+/*}*/
+
+h3 {
+    font: 20px "arial";
+    font-weight: bold;
+    color: #D80621;
+}
+
+h4 {
+    font: 20px "arial";
+    font-weight: bold;
+    color: white;
+}
+
+h5 {
+    font: 12px "Arial";
+    color: black;
+    /*color: #0c5460;*/
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font: 12px Arial;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.legend {
+    font-size: 12px;
+}
+
+.legend rect {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    opacity: 0.7;
+}
+
+/*#commentary-box {*/
+/*  top: 250px;*/
+/*  left: 1100px;*/
+/*  width: 400px;*/
+/*  padding: 10px;*/
+/*  opacity: 0.9;*/
+/*  text-align: center;*/
+/*  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+.circle-label {
+    opacity: 1;
+}
+
+th {
+    color: white;
+    font: 16px "arial";
+}
+
+.btn, .btn1, .btn2 {
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin: 3px;
+    font-weight: bold;
+    color: white;
+    font-sizse: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
